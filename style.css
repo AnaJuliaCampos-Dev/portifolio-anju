@@ -5,3 +5,14 @@
     font-weight: bold;
     background: transparent !important;
 }
+
+/* Transição e efeito hover dos Cards */
+.card {
+    transition: transform 0.2s ease, border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    border-color: #2a8c9d !important;
+    box-shadow: 0 10px 20px rgba(42, 140, 157, 0.4) !important;
+}
