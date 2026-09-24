@@ -1,0 +1,7 @@
+/* Destaque ao passar o mouse ou ativar o Scrollspy */
+#mainNavbar .nav-link.active,
+#mainNavbar .nav-link:hover {
+    color: #2A9D8F !important;
+    font-weight: bold;
+    background: transparent !important;
+}

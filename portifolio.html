@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Portfólio - AnJu</title>
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=VT323&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body class="bg-dark text-light" data-bs-spy="scroll" data-bs-target="#menuNav" data-bs-root-margin="0px 0px -40%" data-bs-smooth-scroll="true">
+
+		<!--NAVBAR-->
+        <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark sticky-top p-3 shadow-lg" style="background-color: #1a2332; border-bottom: 3px solid #2A9D8F; z-index: 1050;">
+            
+            <div class="container-fluid">
+    
+                <div class="navbar-brand d-flex align-items-center gap-2">
+                    <img src="fotos/Avatar_Icon.png" alt="Avatar pixelado" class="rounded-0 border border-2 border-light shadow object-fit-cover" style="width: 50px; height: 50px;">
+                    <span class="h5 mb-0 text-uppercase" style="font-family: 'Press Start 2P', cursive; color: #2A9D8F;">Anju</span>
+				</div>
+
+                <button class="navbar-toggler rounded-0 border-2" type="button" data-bs-toggle="collapse" data-bs-target="#menuHUDCollapse" aria-label="Alterna navegação do menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="menuHUDCollapse">
+
+                    <ul id="menuNav" class="navbar-nav ms-auto gap-3 text-start my-2 my-lg-0" style="font-family: 'VT323', monospace; font-size: 1.5rem;">
+                        <li class="nav-item">
+                            <a class="nav-link px-2" href="#sobre">Sobre</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-2" href="#projetos">Projetos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-2" href="#certificados">Certificados</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link px-2" href="#contato">Contato</a>
+                        </li>
+                    </ul>
+
+                    <div class="ms-lg-3 pt-2 pt-lg-0 text-center">
+                        <a href="index.html" class="fw-bold text-decoration-none border border-1 p-2 border-secondary" style="font-family: 'Press Start 2P', cursive; color: #8da47e; font-size: 1rem;">
+                            RESET
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+
+		<!--SOBRE -->
+		<main class="container-xxl px-3 px-md-4 py-3">
+
+			<section id="sobre" class="pt-5 pb-5 min-vh-100 d-flex flex-column justify-content-center">
+				<h2 class="text-center mb-4 fw-bold display-3" style="font-family: 'VT323', monospace; color: #e06d53;">Dados do Personagem</h2>
+				
+				<div class="row g-4 justify-content-center mb-4">
+					<!-- Card Avatar (Volta a ser mais compacto: 4 de 12 colunas) -->
+					<div class="col-12 col-md-5 col-lg-4">
+						<div class="card text-light border border-3 border-secondary rounded-0 shadow h-100" style="background-color: #1a2332;">
+							<img src="fotos/avatar.png" class="card-img-top img-fluid rounded-0" alt="Foto do Avatar/Imagem da Ana Júlia">
+							<div class="card-body p-3" style="font-family: 'Courier New', Courier, monospace">
+								<h5 class="card-title text-center m-0 fw-bold text-uppercase mb-2">Ana Júlia</h5>
+								<ul class="list-unstyled mb-0" style="font-size: 1.0rem; line-height: 1.6;">
+									<li><b>Idade:</b> 18</li>
+									<li><b>Classe:</b> Desenvolvedora</li>
+									<li><b>Level:</b> 2</li>
+									<li><b>Guilda:</b> Faculdade SENAI</li>
+									<li class="text-danger" aria-label="Pontos de vida: 90 de 100"><b>HP:</b> 90/100</li>
+									<li class="text-info" aria-label="Pontos de mana: 80 de 100"><b>MP:</b> 80/100</li>
+								</ul>
+							</div>	
+						</div>
+					</div>
+
+					<!-- Card Lore (Volta a ter mais espaço: 8 de 12 colunas) -->
+					<div class="col-12 col-md-7 col-lg-8">
+						<div class="card text-light border border-3 border-secondary rounded-0 shadow h-100" style="background-color: #1a2332;">
+							<div class="card-header text-dark fw-bold rounded-0 border-0 py-2 bg-secondary">
+								<h4 class="m-0 fw-bold" style="font-family: 'Press Start 2P', cursive; font-size: 1.0rem;">Lore</h4>
+							</div>
+							<div class="card-body overflow-y-auto" style="font-family: 'Courier New', Courier, monospace; font-size: 1.1rem; line-height: 1.6;">
+								Sou a Ana Júlia, estudante de Análise e Desenvolvimento de Sistemas na Faculdade SENAI e entusiasta da tecnologia. Recém-formada no Ensino Médio e ingressante na faculdade, busco compreender tecnologias e metodologias para aplicá-las na criação de soluções digitais eficientes.
+								<br><br>
+								No decorrer dos meus estudos, venho me dedicando ao aprendizado de desenvolvimento Back-end (Java, Python e C#), conceitos de UX/UI e Ciência de Dados. Aplico o conhecimento na prática criando projetos pessoais e acadêmicos, onde exercito desde a modelagem de dados até a construção do código e a resolução de problemas lógicos.
+								<br><br>
+								Busco minha primeira oportunidade no mercado de trabalho — como estagiária ou desenvolvedora júnior — para colaborar em projetos reais, evoluir tecnicamente e aprender com profissionais experientes.
+							</div>
+						</div>
+					</div>
+				</div>
+
+				<!-- Habilidades -->
+                <div class="col-12">
+                    <div class="card text-light border border-3 border-secondary rounded-0 shadow" style="background-color: #1a2332;">
+                        <div class="card-header fw-bold rounded-0 border-0 py-2 bg-secondary">
+                            <h4 class="m-0 fw-bold" style="font-family: 'Press Start 2P', cursive; font-size: 1.0rem; color: #d3d3d3;">Inventário de Habilidades</h4>
+                        </div>
+                        <div class="card-body p-3 p-md-4" style="font-family: 'VT323', monospace; font-size: 1.4rem;">
+                            <div class="row g-3 text-center">
+                                <div class="col-6 col-sm-4 col-md-3">
+                                    <div class="p-2 border border-secondary rounded-0 bg-dark text-truncate">
+                                        <span>Python</span>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-4 col-md-3">
+                                    <div class="p-2 border border-secondary rounded-0 bg-dark text-truncate">
+                                        <span>Documentação</span>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-4 col-md-3">
+                                    <div class="p-2 border border-secondary rounded-0 bg-dark text-truncate">
+                                        <span>Banco de Dados</span>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-4 col-md-3">
+                                    <div class="p-2 border border-secondary rounded-0 bg-dark text-truncate">
+                                        <span>Web Front-End</span>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-4 col-md-3">
+                                    <div class="p-2 border border-secondary rounded-0 bg-dark text-truncate">
+                                        <span>Eng. Software</span>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-4 col-md-3">
+                                    <div class="p-2 border border-secondary rounded-0 bg-dark text-truncate">
+                                        <span>Ciência de Dados</span>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-4 col-md-3">
+                                    <div class="p-2 border border-secondary rounded-0 bg-dark text-truncate">
+                                        <span>UX / UI</span>
+                                    </div>
+                                </div>
+                                <div class="col-6 col-sm-4 col-md-3">
+                                    <div class="p-2 border border-secondary rounded-0 bg-dark text-truncate">
+                                        <span>Inglês Intermediário</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+			</section>
+
+			<!-- PROJETOS -->
+			<section id="projetos" class="pt-5 pb-5 min-vh-100 d-flex flex-column justify-content-center">
+				<h2 class="text-center mt-5 pt-4 mb-5 fw-bold display-3" style="font-family: 'VT323', monospace; color: #d4d4d4;">Mural das Missões</h2>
+
+				<!-- Concluídas -->
+				<div class="mb-5">
+					<h3 class="h4 mb-3 d-flex align-items-center gap-2 fs-5 fs-md-4" style="font-family: 'Press Start 2P', cursive; color: #48cae4;">
+						Missões Concluídas
+					</h3>
+					
+					<hr class="border-2 mb-4">
+
+					<!-- SanctusApp -->
+					<div class="row g-4">
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="card text-light border border-3 border-secondary rounded-0 shadow h-100" style="background-color: #1a2332;">
+								<img src="fotos/SactusApp.png" class="card-img-top p-2 rounded object-fit-cover" style="max-height: 180px;" alt="Projeto 1">
+								<div class="card-body d-flex flex-column">
+									<h5 class="card-title fw-bold text-light" style="font-family: 'VT323', monospace; font-size: 1.6rem;">SanctusApp</h5>
+									<p class="card-text text-light" style="font-family: 'Courier New', Courier, monospace; font-size: 1.0rem;">Plataforma integrada de automação comercial e gestão operacional desenvolvida para otimizar o fluxo de vendas, o controle de estoque em tempo real e a administração financeira do food trucks Santus Panis</p>
+									<a href="https://github.com/matheushvitor10/SanctusAPP-pint1" target="_blank" class="btn rounded-0 border-2 text-uppercase mt-auto shadow-sm" style="background-color: #2a8c9d; border-color: #c4d3e0; color: #ffffff; font-family: 'VT323', monospace; font-size: 1.3rem;">
+										Ver Missão <span class="visually-hidden">do projeto SanctusApp no GitHub</span>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Prensa hidráulica -->
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="card text-light border border-3 border-secondary rounded-0 shadow h-100" style="background-color: #1a2332;">
+								<img src="fotos/prensa_hidraulica.png" class="card-img-top p-2 rounded object-fit-cover" style="max-height: 180px;" alt="Projeto 2">
+								<div class="card-body d-flex flex-column">
+									<h5 class="card-title fw-bold text-light" style="font-family: 'VT323', monospace; font-size: 1.6rem;">Prensa Hidráulica</h5>
+									<p class="card-text text-light" style="font-family: 'Courier New', Courier, monospace; font-size: 1.0rem;">Desenvolvimento de uma interface front-end em HTML, CSS e JavaScript para o painel IHM de monitoramento de uma prensa hidráulica, realizado no contexto de uma atividade prática.</p>
+									<a href="https://github.com/AnaJuliaCampos-Dev/prensa-hidraulica.git" target="_blank" class="btn rounded-0 border-2 text-uppercase mt-auto shadow-sm" style="background-color: #2a8c9d; border-color: #c4d3e0; color: #ffffff; font-family: 'VT323', monospace; font-size: 1.3rem;">
+										Ver Missão <span class="visually-hidden">do projeto Prensa Hidráulica no GitHub</span>
+									</a>
+								</div>
+							</div>
+						</div>
+
+						<!-- Animatrix -->
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="card text-light border border-3 border-secondary rounded-0 shadow h-100" style="background-color: #1a2332;">
+								<img src="fotos/animatrix.png" class="card-img-top p-2 rounded object-fit-cover" style="max-height: 180px;" alt="Projeto 3">
+								<div class="card-body d-flex flex-column">
+									<h5 class="card-title fw-bold text-light" style="font-family: 'VT323', monospace; font-size: 1.6rem;">Animatrix-V2</h5>
+									<p class="card-text text-light" style="font-family: 'Courier New', Courier, monospace; font-size: 1.0rem;">Desenvolvimento de um catálogo online de animes interativo com HTML, CSS e JavaScript, criado como atividade prática para exibir, filtrar e organizar títulos dinamicamente.</p>
+									<a href="https://github.com/AnaJuliaCampos-Dev/animatrix-v2.git" target="_blank" class="btn rounded-0 border-2 text-uppercase mt-auto shadow-sm" style="background-color: #2a8c9d; border-color: #c4d3e0; color: #ffffff; font-family: 'VT323', monospace; font-size: 1.3rem;">
+										Ver Missão <span class="visually-hidden">do projeto Animatrix no GitHub</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>	
+				
+				<!-- Em andamento -->
+				<div class="pt-3 my-5">
+					<h3 class="h4 mb-4 d-flex align-items-center justify-content-start justify-content-md-end text-start text-md-end gap-2 fs-5 fs-md-4" style="font-family: 'Press Start 2P', cursive; color: #48cae4;">
+						Missões em Andamento
+					</h3>
+
+					<hr class="border-2 mb-4">
+
+					<!-- RadarMind -->
+					<div class="row g-4 justify-content-start justify-content-md-end">
+						<div class="col-12 col-md-6 col-lg-4">
+							<div class="card text-light border border-3 border-secondary rounded-0 shadow h-100" style="background-color: #1a2332;">
+								<img src="fotos/RadarMind.jpg" class="card-img-top p-2 rounded object-fit-cover" style="max-height: 180px;" alt="Projeto RadarMind">
+								<div class="card-body d-flex flex-column">
+									<h5 class="card-title fw-bold text-light" style="font-family: 'VT323', monospace; font-size: 1.6rem;">RadarMind</h5>
+									<p class="card-text text-light" style="font-family: 'Courier New', Courier, monospace; font-size: 1.0rem;">Sistema de Integração Corporativa entre Empresa Matriz e Subempresas do setor de Agronegócio</p>
+									<a href="https://github.com/L-pf0/Projeto-Integrador-2---PINT/tree/main" target="_blank" class="btn rounded-0 border-2 text-uppercase mt-auto shadow-sm" style="background-color: #2a8c9d; border-color: #c4d3e0; color: #ffffff; font-family: 'VT323', monospace; font-size: 1.3rem;">
+										Ver Missão <span class="visually-hidden">do projeto RadarMind no GitHub</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+
+                
+			</section>
+
+			
+
+			<!--CERTIFICADOS-->
+			<section id="certificados" class="pt-5 pb-5 min-vh-100 d-flex flex-column justify-content-center">
+				<h2 class="text-center mb-4 fw-bold display-3" style="font-family: 'VT323', monospace; color:#c77dff;">Conquistas</h2>
+
+				<div class="accordion d-flex flex-column gap-3" id="accordionCertificados">
+
+					<!-- Ensino Médio -->
+					<div class="accordion-item rounded-0 border border-3 border-secondary" style="background-color: #1a2332;">
+						<h2 class="accordion-header" id="headingUm">
+							<button class="accordion-button collapsed rounded-0 text-light bg-transparent shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseUm" aria-expanded="false" aria-controls="collapseUm" style="font-family: 'VT323', monospace; font-size: 1.6rem; color: #4cc9f0;">
+								Ensino Médio
+							</button>
+						</h2>
+						<div id="collapseUm" class="accordion-collapse collapse" aria-labelledby="headingUm" data-bs-parent="#accordionCertificados">
+							<div class="accordion-body d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center gap-3 pt-0">
+								<span class="text-light" style="font-family: 'Courier New', Courier, monospace; font-size: 1.1rem;">Conclusão do Ensino Médio no SESI, no ano de 2025.</span>
+								<a href="/certificados/historico_escolar.pdf" target="_blank" class="btn rounded-0 border-2 text-uppercase text-light text-nowrap align-self-stretch align-self-sm-auto" style="background-color: #7b2cbf; border-color: #e0aaff; font-family: 'VT323', monospace; font-size: 1.3rem;">
+									Ver Certificado <span class="visually-hidden">do Ensino Médio</span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Linguaskill -->
+					<div class="accordion-item rounded-0 border border-3 border-secondary" style="background-color: #1a2332;">
+						<h2 class="accordion-header" id="headingDois">
+							<button class="accordion-button collapsed rounded-0 text-light bg-transparent shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseDois" aria-expanded="false" aria-controls="collapseDois" style="font-family: 'VT323', monospace; font-size: 1.6rem; color: #4cc9f0;">
+								Linguaskill
+							</button>
+						</h2>
+						<div id="collapseDois" class="accordion-collapse collapse" aria-labelledby="headingDois" data-bs-parent="#accordionCertificados">
+							<div class="accordion-body d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center gap-3 pt-0">
+								<span class="text-light" style="font-family: 'Courier New', Courier, monospace; font-size: 1.1rem;">Certificado da realização e resultado da prova de proficiência em inglês da Cambridge, feito no começo de 2026.</span>
+								<a href="/certificados/Certificado Linguaskill.pdf" target="_blank" class="btn rounded-0 border-2 text-uppercase text-light text-nowrap align-self-stretch align-self-sm-auto" style="background-color: #7b2cbf; border-color: #e0aaff; font-family: 'VT323', monospace; font-size: 1.3rem;">
+									Ver Certificado <span class="visually-hidden">do Linguaskill</span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Banco de Dados -->
+					<div class="accordion-item rounded-0 border border-3 border-secondary" style="background-color: #1a2332;">
+						<h2 class="accordion-header" id="headingTres">
+							<button class="accordion-button collapsed rounded-0 text-light bg-transparent shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTres" aria-expanded="false" aria-controls="collapseTres" style="font-family: 'VT323', monospace; font-size: 1.6rem; color: #4cc9f0;">
+								Banco de Dados
+							</button>
+						</h2>
+						<div id="collapseTres" class="accordion-collapse collapse" aria-labelledby="headingTres" data-bs-parent="#accordionCertificados">
+							<div class="accordion-body d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center gap-3 pt-0">
+								<span class="text-light" style="font-family: 'Courier New', Courier, monospace; font-size: 1.1rem;">Curso Online sobre Banco de dados, concluído em 2026.</span>
+								<a href="/certificados/adm_bc_dados_fb.pdf" target="_blank" class="btn rounded-0 border-2 text-uppercase text-light text-nowrap align-self-stretch align-self-sm-auto" style="background-color: #7b2cbf; border-color: #e0aaff; font-family: 'VT323', monospace; font-size: 1.3rem;">
+									Ver Certificado <span class="visually-hidden">do Banco de Dados</span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Data Center -->
+					<div class="accordion-item rounded-0 border border-3 border-secondary" style="background-color: #1a2332;">
+						<h2 class="accordion-header" id="headingQuatro">
+							<button class="accordion-button collapsed rounded-0 text-light bg-transparent shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseQuatro" aria-expanded="false" aria-controls="collapseQuatro" style="font-family: 'VT323', monospace; font-size: 1.6rem; color: #4cc9f0;">
+								Data Centers
+							</button>
+						</h2>
+						<div id="collapseQuatro" class="accordion-collapse collapse" aria-labelledby="headingQuatro" data-bs-parent="#accordionCertificados">
+							<div class="accordion-body d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center gap-3 pt-0">
+								<span class="text-light" style="font-family: 'Courier New', Courier, monospace; font-size: 1.1rem;">Curso Online sobre Data Centers, concluído em 2026.</span>
+								<a href="/certificados/desvendando_data_centers.pdf" target="_blank" class="btn rounded-0 border-2 text-uppercase text-light text-nowrap align-self-stretch align-self-sm-auto" style="background-color: #7b2cbf; border-color: #e0aaff; font-family: 'VT323', monospace; font-size: 1.3rem;">
+									Ver Certificado <span class="visually-hidden">do Data Center</span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+					<!-- Cibersegurança -->
+					<div class="accordion-item rounded-0 border border-3 border-secondary" style="background-color: #1a2332;">
+						<h2 class="accordion-header" id="headingCinco">
+							<button class="accordion-button collapsed rounded-0 text-light bg-transparent shadow-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapseCinco" aria-expanded="false" aria-controls="collapseCinco" style="font-family: 'VT323', monospace; font-size: 1.6rem; color: #4cc9f0;">
+								Cibersegurança Nuvem
+							</button>
+						</h2>
+						<div id="collapseCinco" class="accordion-collapse collapse" aria-labelledby="headingCinco" data-bs-parent="#accordionCertificados">
+							<div class="accordion-body d-flex flex-column flex-sm-row justify-content-between align-items-start align-items-sm-center gap-3 pt-0">
+								<span class="text-light" style="font-family: 'Courier New', Courier, monospace; font-size: 1.1rem;">Curso Online sobre cibersegurança na nuvem da AWS, concluído em 2026.</span>
+								<a href="/certificados/Certificado_Cibersegurança na Nuvem.pdf" target="_blank" class="btn rounded-0 border-2 text-uppercase text-light text-nowrap align-self-stretch align-self-sm-auto" style="background-color: #7b2cbf; border-color: #e0aaff; font-family: 'VT323', monospace; font-size: 1.3rem;">
+									Ver Certificado <span class="visually-hidden">de Cibersegurança na Nuvem</span>
+								</a>
+							</div>
+						</div>
+					</div>
+
+				</div>
+			</section>  
+
+			
+
+			<!-- CONTATO -->
+			<section id="contato" class="d-flex align-items-center justify-content-center min-vh-100 py-5">
+				<div class="row w-100 justify-content-center">
+					<div class="col-11 col-sm-9 col-md-7 col-lg-5">
+						<div class="card p-4 p-md-5 text-center text-light border border-3 border-secondary rounded-0 shadow" style="background-color: #1a2332;">
+						
+							<h3 class="text-center mb-4 fw-bold display-3" style="font-family: 'VT323', monospace; color: #a53447;">
+								Save the game?
+							</h3>
+						
+							<p class="mt-3  mb-4 text-light" style="font-family: 'Courier New', monospace; font-size: 1.1rem;">
+								Entre em contato através das minhas redes sociais:
+							</p>
+
+							<div class="d-flex flex-column gap-3 ">
+								<button id="btnCopiarEmail" type="button" class="btn rounded-0 border-2 text-uppercase text-light py-2" style="background-color: #89375c; border-color: #471539; font-family: 'VT323', monospace; font-size: 1.4rem;">
+									E-mail
+								</button>
+							
+								<a href="https://www.instagram.com/anaj_uliacc/" target="_blank" class="btn rounded-0 border-2 text-uppercase text-light py-2" style="background-color: #89375c; border-color: #471539; font-family: 'VT323', monospace; font-size: 1.4rem;">
+									Instagram
+								</a>
+							
+								<a href="https://www.linkedin.com/in/ana-j%C3%BAlia-cir%C3%ADaco-campos-b382453b6/" target="_blank" class="btn rounded-0 border-2 text-uppercase text-light py-2" style="background-color: #89375c; border-color: #471539; font-family: 'VT323', monospace; font-size: 1.4rem;">
+									LinkedIn 
+								</a>
+
+								<a href="https://github.com/AnaJuliaCampos-Dev" target="_blank" class="btn rounded-0 border-2 text-uppercase text-light py-2" style="background-color: #89375c; border-color: #471539; font-family: 'VT323', monospace; font-size: 1.4rem;">
+									GitHub 
+								</a>
+
+							</div>
+
+						</div>	
+
+					</div>
+
+				</div>	
+
+			</section>
+
+			<!-- Toast -->
+			<div class="toast-container position-fixed bottom-0 end-0 p-3 z-3">
+				<div id="toastEmail" class="toast align-items-center text-white bg-success border-0 rounded-0" role="alert">
+					<div class="d-flex">
+						<div class="toast-body" style="font-family: 'VT323', monospace; font-size: 1.3rem;">
+							E-mail copiado para a área de transferência.
+						</div>
+						<button type="button" class="btn-close btn-close-white me-2 m-auto" data-bs-dismiss="toast" aria-label="Fechar notificação"></button>
+					</div>
+				</div>				
+			</div>
+
+		</main>
+		
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+		<script src="script.js"></script>
+	</body>
+</html>
